@@ -1,0 +1,9 @@
+CREATE TABLE Produto (
+    Nome VARCHAR (50) NOT NULL,
+    Id INT NOT NULL,
+	TipoProduto VARCHAR (50) NOT NULL,
+	Valor NUMERIC (9,2) NOT NULL
+)
+GO
+
+SELECT * FROM Produto

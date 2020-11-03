@@ -1,0 +1,9 @@
+CREATE TABLE Fornecedor (
+    Nome VARCHAR (50) NOT NULL,
+    Id INT NOT NULL,
+	CNPJ VARCHAR NOT NULL,
+	Endereco VARCHAR NOT NULL
+)
+GO
+
+SELECT * FROM Fornecedor

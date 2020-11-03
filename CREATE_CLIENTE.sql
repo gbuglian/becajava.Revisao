@@ -1,0 +1,10 @@
+CREATE TABLE Cliente (
+    Nome VARCHAR (50) NOT NULL,
+    id INT NOT NULL,
+	Endereço VARCHAR (100) NOT NULL,
+	CPF VARCHAR (50) NOT NULL,
+)
+GO
+
+
+SELECT * FROM Cliente

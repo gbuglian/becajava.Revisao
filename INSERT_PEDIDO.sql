@@ -1,0 +1,9 @@
+INSERT INTO Pedido(
+	NumPedido
+	)VALUES
+	('MB-1232453456'),
+	('MB-8546363232'),
+	('TM-5364573345'),
+	('AM-6435242233')
+
+	SELECT * FROM Pedido
